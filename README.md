@@ -1,10 +1,10 @@
-# Subbu_TaskFailure
+# Early prediction of task failure in cloud environments
 
 A Deep Learning based cloud task failure prediction system using GRU and Machine Learning classifiers on the Google Cluster Trace Dataset.
 
 ---
 
-##  Project Overview
+## Project Overview
 
 This project focuses on the early prediction of task failures in cloud computing environments using a hybrid Deep Learning + Machine Learning framework.
 
@@ -37,7 +37,7 @@ The framework helps reduce:
 
 ---
 
-# 🧠 Technologies Used
+# Technologies Used
 
 - Python
 - Jupyter Notebook
@@ -50,7 +50,7 @@ The framework helps reduce:
 
 ---
 
-#  Dataset
+# Dataset
 
 Dataset Used:
 
@@ -67,18 +67,21 @@ Dataset contains:
 
 ---
 
-#  Project Workflow
+# Project Workflow
 
 ## 1. Data Preprocessing
+
 - Remove unnecessary columns
 - Handle missing values
 - Normalize data using MinMaxScaler
 
 ## 2. Feature Selection
+
 - SelectKBest algorithm used
 - Top important features selected
 
 ## 3. Feature Extraction
+
 - GRU network extracts temporal patterns
 - Learns sequential dependencies
 
@@ -101,7 +104,7 @@ Machine Learning classifiers used:
 
 ---
 
-# 📊 Model Performance
+# Model Performance
 
 - GRU achieved around 97.7% accuracy
 - GRU + Random Forest gave best performance
@@ -109,14 +112,14 @@ Machine Learning classifiers used:
 
 ---
 
-#  Files Included
+# Files Included
 
 - Final_min.ipynb → Main implementation notebook
 - ABC.csv → Dataset file
 
 ---
 
-#  Future Improvements
+# Future Improvements
 
 - Deploy as a web application
 - Real-time cloud monitoring
@@ -126,9 +129,9 @@ Machine Learning classifiers used:
 
 ---
 
-#  Author
+# Author
 
-Subba Reddy
+Sruthi Keerthi Mailari
 
 GitHub Repository:
-https://github.com/Subbareddy987/Subbu_TaskFailure
+https://github.com/SruthiKeerthi05/miniproject_task_failure
